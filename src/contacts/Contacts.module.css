@@ -1,0 +1,39 @@
+
+.contactContainer{
+    background-color: lightblue;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+
+    background-color: grey;
+}
+.contact{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    background-color: #737392 ;
+}
+
+.input input{
+    width: 250px;
+}
+
+.input textarea{
+    width: 250px;
+}

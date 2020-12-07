@@ -1,0 +1,44 @@
+.footerBlock{
+
+    background-color: rgba(39,103,53,0.99);
+
+
+}
+.footerContainer{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+
+    border: 1px solid;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+
+    text-align: center;
+}
+.title{
+
+    background-color: grey;
+}
+.footer{
+
+margin: 20px;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+
+    justify-content:center;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    background-color: #737392 ;
+}

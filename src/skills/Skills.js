@@ -9,7 +9,7 @@ export function Skills() {
     return (
         <div className={style.skillsBlock}>
 <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
-    <h2 className={style.title}>Skills</h2>
+   <div><h2 className={style.title}>Skills</h2></div>
     <div className={style.skills}>
 <Skill title={"JS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."} />
 <Skill title={"CSS"} description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."} />
