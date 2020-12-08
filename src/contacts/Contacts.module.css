@@ -1,7 +1,7 @@
 
 .contactContainer{
     background-color: lightblue;
-
+    padding-top: 30px;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;

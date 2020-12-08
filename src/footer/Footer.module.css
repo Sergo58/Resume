@@ -1,10 +1,11 @@
 .footerBlock{
-
+    padding-top: 30px;
     background-color: rgba(39,103,53,0.99);
 
 
 }
 .footerContainer{
+
     height: 100%;
     width: 80%;
     margin: 0 auto;
