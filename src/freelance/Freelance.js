@@ -11,7 +11,7 @@ export function Freelance() {
             <div className={style.freelanceContainer}>
 
                 <div className={style.freelance}>
-                    <div><h2 className={style.title}>I Am Available For Freelancer</h2></div>
+                    <div className={style.block} ><h2 className={style.title}>I Am Available For Freelancer</h2></div>
                     <div className={style.icon}>
                         HIRE ME
                     </div>

@@ -1,7 +1,8 @@
 .worksBlock{
+
     padding-top: 30px;
     min-height: 100vh;
-    background-color: olive;
+    background-color: #111;
 }
 .worksContainer{
     align-items: center;
@@ -13,7 +14,7 @@
     background-color: grey;
 }
 .works{
-    border: 1px solid;
+
     width: 100%;
     display: flex;
     justify-content: space-evenly;

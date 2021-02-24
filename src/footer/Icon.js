@@ -5,10 +5,10 @@ import stylesContainer from "./../common/styles/Container.module.css"
 
 
 
-export function Icon() {
+export function Icons(props) {
     return (
                     <div className={style.icon}>
-
+                        {props.icon}
                     </div>
 
 

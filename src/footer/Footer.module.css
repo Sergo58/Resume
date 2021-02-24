@@ -1,31 +1,38 @@
 .footerBlock{
     padding-top: 30px;
-    background-color: rgba(39,103,53,0.99);
+    background-color: #111;
 
 
 }
+
 .footerContainer{
 
     height: 100%;
     width: 80%;
     margin: 0 auto;
 
-    border: 1px solid;
+
     align-items: center;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
 
     text-align: center;
+
 }
 .title{
 
-    background-color: grey;
+    margin: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase!important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
 }
 .footer{
 
 margin: 20px;
-    border: 1px solid;
+
     width: 200px;
     height: 40px;
     display: flex;
@@ -37,9 +44,20 @@ margin: 20px;
 
 .icon{
 
+
     justify-content:center;
     text-align: center;
-    height: 30px;
-    width: 30px;
-    background-color: #737392 ;
+color: #ffb400;
+
+}
+
+.bottom{
+    margin: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #eee;
+    font-size: 14px;
+}
+
+.codeWars {
+margin-top: 4px;
 }

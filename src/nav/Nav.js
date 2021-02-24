@@ -10,6 +10,7 @@ export function Nav() {
             <a href="">Projects</a>
             <a href="">Contacts</a>
 
+
         </div>
     );
 }

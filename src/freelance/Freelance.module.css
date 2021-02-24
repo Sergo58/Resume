@@ -1,17 +1,25 @@
 
 .freelanceContainer{
-    background-color: #61dafb;
+
+    background-color: #252527;
 padding-top: 30px;
+    padding-bottom: 30px;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
 }
 .title{
+    background-color: #252527;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase!important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
 
-    background-color: grey;
 }
 .freelance{
-    border: 1px solid;
+    background-color: #252527;
     height: 100%;
     width: 80%;
     display: flex;
@@ -23,8 +31,25 @@ padding-top: 30px;
 }
 
 .icon{
-    text-align: center;
-    height: 30px;
-    width: 90px;
-    background-color: #737392 ;
+    box-shadow: none !important;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ffb400;
+    padding: 0 40px;
+    outline: none !important;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+
+}
+.block{
+    background-color: #252527;
 }

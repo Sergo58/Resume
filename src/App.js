@@ -12,6 +12,7 @@ import {Footer} from "./footer/Footer";
 function App() {
   return (
     <div className="App">
+
 <Header/>
 <Main/>
 <Skills/>
@@ -19,6 +20,7 @@ function App() {
 <Freelance/>
 <Contacts/>
 <Footer/>
+
     </div>
   );
 }
