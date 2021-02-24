@@ -5,6 +5,7 @@
 }
 
 .text{
+    margin-top: 30px;
     text-align: left!important;
 color:  #fff ;
 
@@ -26,7 +27,7 @@ color:  #fff ;
     position: relative;
     border-bottom-left-radius:  15px;
     border-top-left-radius: 15px;
-    margin-bottom: 20px;
+
 
 }
 .photo{
