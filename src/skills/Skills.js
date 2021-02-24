@@ -6,7 +6,7 @@ import {Title} from "../common/Title/Title";
 import jscript from "../images/javascript.svg"
 import tscript from "../images/ts.svg"
 import cssimage from "../images/css-3.svg"
-import htmlimage from "../images/html-5.svg"
+import htmlimage from "../images/html.svg"
 import reactimage from "../images/react_original_logo_icon_146374.svg"
 import reduxtimage from "../images/redux.svg"
 export function Skills() {
