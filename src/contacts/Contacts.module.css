@@ -25,6 +25,7 @@
 }
 
 .icon{
+    cursor: pointer;
     box-shadow: none !important;
     border-radius: 26px;
     font-weight: 500;
@@ -43,6 +44,7 @@
     letter-spacing: .5px;
     border: 0;
 }
+.icon:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 .input{
    width:500px;
 }
@@ -107,7 +109,7 @@ z-index: 1;
 
     padding-left: 50px;
     line-height: 8px;
-    padding-top: 5px;
+    padding-top: 15px;
     color: #fff;
     text-align: left!important
 

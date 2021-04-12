@@ -6,7 +6,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Icons} from "../footer/Icon";
 import {faMailchimp} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelopeOpen, faPhoneSquare} from "@fortawesome/free-solid-svg-icons";
-
+import Fade from 'react-reveal/Fade';
+import Tilt from "react-tilt";
 
 export function Contacts() {
     return (
@@ -15,6 +16,7 @@ export function Contacts() {
 
             <div className={style.contact}>
                 <Title first={"get in "} second={"touch"}/>
+                <Fade left>
                 <div className={style.container}>
 
 
@@ -25,9 +27,11 @@ export function Contacts() {
                             <input placeholder={"YOUR EMAIL"} type="text"/><br/>
                             <textarea placeholder={"YOUR MESSAGE"}></textarea>
                         </form>
-                        <div className={style.icon}>
-                            SEND MESSAGE
-                        </div>
+                        <Tilt className="Tilt" options={{ max : 25 }}  >
+                            <div className={style.icon}>
+                                SEND MESSAGE
+                            </div>
+                        </Tilt>
                     </div>
                     <div className={style.item}>
                         <div>
@@ -41,8 +45,9 @@ export function Contacts() {
                     </div>
                 </div>
 
-
+            </Fade>
             </div>
+
         </div>
 
 

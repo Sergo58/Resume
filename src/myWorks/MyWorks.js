@@ -5,7 +5,7 @@ import {Work} from "./work/Work";
 import {Title} from "../common/Title/Title";
 import socialNetwork from "./../images/socialNetwork.jpg"
 import todolist from "./../images/todolist.jpg"
-
+import Fade from 'react-reveal/Fade';
 
 export function MyWorks() {
     const social={
@@ -19,6 +19,7 @@ export function MyWorks() {
         <div className={style.worksBlock}>
 <div className={`${stylesContainer.container} ${style.worksContainer}`}>
   <Title first={"MY"} second={"Projects"}/>
+  <Fade left>
     <div className={style.works}>
 <Work style={social} title={"Social network"} description={"Development of social network using React, Redux. " +
 "Application authorization, profile editing, navigation through user pages, subscribing and unsubscribing " +
@@ -31,6 +32,7 @@ export function MyWorks() {
 
 
     </div>
+  </Fade>
 </div>
 
         </div>

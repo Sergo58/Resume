@@ -56,6 +56,9 @@ position: absolute;
     line-height: 45px;
     font-weight: 700;
     margin: 18px 0 10px;
+
+
+
 }
 .iam{
     color:  #fff
@@ -80,3 +83,14 @@ width: 320px;
     flex-wrap: wrap;
 
 }
+.particles {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+
+}
+
+
+

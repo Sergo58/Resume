@@ -1,6 +1,6 @@
 
 .freelanceContainer{
-margin-top: 30px;
+
     background-color: #252527;
 padding-top: 30px;
     padding-bottom: 30px;
@@ -31,6 +31,7 @@ padding-top: 30px;
 }
 
 .icon{
+    cursor: pointer;
     box-shadow: none !important;
     border-radius: 26px;
     font-weight: 500;
@@ -50,6 +51,7 @@ padding-top: 30px;
     border: 0;
 
 }
+.icon:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 .block{
     background-color: #252527;
 }

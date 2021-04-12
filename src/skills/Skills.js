@@ -9,6 +9,7 @@ import cssimage from "../images/css-3.svg"
 import htmlimage from "../images/html.svg"
 import reactimage from "../images/react_original_logo_icon_146374.svg"
 import reduxtimage from "../images/redux.svg"
+import Fade from 'react-reveal/Fade';
 export function Skills() {
     const js={
         backgroundImage:`url(${jscript}`
@@ -39,6 +40,7 @@ export function Skills() {
         <div className={style.skillsBlock}>
             <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
                 <Title first={"MY"} second={"Skills"}/>
+                <Fade left>
                 <div className={style.skills}>
                     <Skill style={js} title={"JS"}/>
                     <Skill style={css} title={"CSS"}/>
@@ -47,6 +49,7 @@ export function Skills() {
                     <Skill style={redux} title={"Redux"}   />
                     <Skill  style={html}  title={"Html"}   />
                 </div>
+                    </Fade>
             </div>
 
         </div>
