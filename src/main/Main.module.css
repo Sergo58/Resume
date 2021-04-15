@@ -1,11 +1,11 @@
 .mainBlock{
    min-height: 100vh;
     background-color: #111;
-
+padding-bottom: 20px;
 }
 
 .text{
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: left!important;
 color:  #fff ;
 
@@ -21,6 +21,7 @@ color:  #fff ;
 
 }
 .colorBlock{
+    margin-top: 50px;
     width: 200px;
     height: 450px;
     background: #ffb400;
@@ -31,6 +32,7 @@ color:  #fff ;
 
 }
 .photo{
+    margin-top: 50px;
 position: absolute;
     margin-left: 20px;
     background-image: url("./../images/photo.jpg");

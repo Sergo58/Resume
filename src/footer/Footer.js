@@ -4,11 +4,20 @@ import stylesContainer from "./../common/styles/Container.module.css"
 import {Icons} from "./Icon";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
-import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons/faFacebookSquare";
-import {faGithubSquare, faInstagramSquare, faLinkedin, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
-import {faCode} from "@fortawesome/free-solid-svg-icons";
-import {Icon, InlineIcon} from '@iconify/react';
+
+import {
+    faGithubSquare, faLinkedin, faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
+
+import {Icon} from '@iconify/react';
 import codewarsIcon from '@iconify-icons/simple-icons/codewars';
+import telegram from "@iconify-icons/simple-icons/telegram";
+import tripadvisor from "@iconify-icons/simple-icons/tripadvisor";
+import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
+import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
+import {faTelegramPlane} from "@fortawesome/free-brands-svg-icons/faTelegramPlane";
+
+
 
 
 export function Footer(props) {
@@ -18,12 +27,13 @@ export function Footer(props) {
                 <span className={style.title}>Ilinikh Sergey</span>
                 <div className={style.footer}>
 
-                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faFacebookSquare}/>}/>
-                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faInstagramSquare}/>}/>
-                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faLinkedin}/>}/>
-                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faGithubSquare}/>}/>
 
-                    <span className={style.codeWars}><Icons  icon={<Icon icon={codewarsIcon}  height={28} />}/></span>
+
+                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faLinkedinIn}/>}/>
+                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faGithub}/>}/>
+                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faTelegramPlane}/>}/>
+                    <span className={style.codeWars}><Icons icon={<Icon icon={codewarsIcon} color="#111" height={32}  />}/></span>
+<span className={style.square}></span>
                 </div>
                 <span className={style.bottom}>© 2021 All Rights Reserved.</span>
             </div>

@@ -11,6 +11,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: grey;
 }
+
 .contact{
     height: 100%;
     width: 80%;
@@ -44,6 +45,7 @@
     letter-spacing: .5px;
     border: 0;
 }
+
 .icon:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
 .input{
    width:500px;

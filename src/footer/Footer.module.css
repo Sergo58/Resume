@@ -32,7 +32,7 @@
 .footer{
 
 margin: 20px;
-
+position: relative;
     width: 200px;
     height: 40px;
     display: flex;
@@ -44,7 +44,7 @@ margin: 20px;
 
 .icon{
 
-
+cursor: pointer;
     justify-content:center;
     text-align: center;
 color: #ffb400;
@@ -60,4 +60,13 @@ color: #ffb400;
 
 .codeWars {
 margin-top: 4px;
+z-index: 1;
+}
+.square{
+    position: absolute;
+    background-color: #ffb400;
+    height: 28px;
+    width: 32px;
+    right: 16px;
+    z-index: 0;
 }

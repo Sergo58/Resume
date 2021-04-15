@@ -37,7 +37,7 @@ export function Skills() {
 
     }
     return (
-        <div className={style.skillsBlock}>
+        <div id={'Skills'} className={style.skillsBlock}>
             <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
                 <Title first={"MY"} second={"Skills"}/>
                 <Fade left>

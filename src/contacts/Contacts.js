@@ -12,7 +12,7 @@ import Tilt from "react-tilt";
 export function Contacts() {
     return (
 
-        <div className={style.contactContainer}>
+        <div id={'Contacts'} className={style.contactContainer}>
 
             <div className={style.contact}>
                 <Title first={"get in "} second={"touch"}/>
@@ -37,7 +37,7 @@ export function Contacts() {
                         <div>
                             <div className={style.mail}><FontAwesomeIcon size={"3x"} icon={faEnvelopeOpen}/></div>
                             <p className={style.iconTitle}>MAIL ME</p> <p
-                            className={style.iconContent}>Godfather59@yandex.ru</p></div>
+                            className={style.iconContent}>s.ilinykh.ekb@gmail.com</p></div>
                         <div className={style.iconMain}>
                             <div className={style.mail}><FontAwesomeIcon size={"3x"} icon={faPhoneSquare}/></div>
                             <p className={style.iconTitle}>CALL ME</p> <p className={style.iconContent}>+7 919 381 30

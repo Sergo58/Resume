@@ -33,7 +33,7 @@ const particlesOptions = {
 export function Main() {
     return (
 
-        <div className={style.mainBlock}>
+        <div id={'Main'} className={style.mainBlock}>
             <Particles className={style.particles} params={particlesOptions}/>
             <div className={styleContainer.container}>
                 <Tilt className="Tilt" options={{ max : 25 }}  >

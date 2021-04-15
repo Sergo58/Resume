@@ -1,8 +1,12 @@
 .header{
-    height: 80px;
-    background-color: #111;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
     display:flex;
     justify-content: flex-end;
     align-items:center ;
 padding-right: 10px;
+    position:fixed ;
+    z-index: 9999;
+
 }

@@ -16,7 +16,7 @@ export function MyWorks() {
         backgroundImage:`url(${todolist}`
     }
     return (
-        <div className={style.worksBlock}>
+        <div id={'Projects'} className={style.worksBlock}>
 <div className={`${stylesContainer.container} ${style.worksContainer}`}>
   <Title first={"MY"} second={"Projects"}/>
   <Fade left>
