@@ -42,12 +42,12 @@ export function Skills() {
                 <Title first={"MY"} second={"Skills"}/>
                 <Fade left>
                 <div className={style.skills}>
-                    <Skill style={js} title={"JS"}/>
-                    <Skill style={css} title={"CSS"}/>
-                    <Skill style={react} title={"React"}/>
+                              <Skill style={react} title={"React"}/>
                     <Skill style={ts}  title={"TS"}    />
                     <Skill style={redux} title={"Redux"}   />
                     <Skill  style={html}  title={"Html"}   />
+                    <Skill style={js} title={"JS"}/>
+                    <Skill style={css} title={"CSS"}/>
                 </div>
                     </Fade>
             </div>

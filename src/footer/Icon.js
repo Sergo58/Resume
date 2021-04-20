@@ -10,9 +10,12 @@ export function Icons(props) {
 
 
     <Tilt className="Tilt" options={{ max : 25 }}  >
-        <div className={style.icon}>
-            {props.icon}
-        </div>
+        <a href={props.link}>
+            <div  className={style.icon}>
+                {props.icon}
+            </div>
+        </a>
+
     </Tilt>
 
     );

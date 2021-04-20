@@ -9,6 +9,7 @@
 
 }
 .image{
+
     background-color:gray ;
     position: relative;
     width: 300px;
@@ -18,28 +19,50 @@
     background-position: center;
     text-align: center;
 }
-.image::before{
-
+.image2{
+    display: none;
     position: absolute;
-    content:'';
-    background-color: #111111;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    opacity: 0.4;
-
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
 }
+.work:hover .image2 { display: block; }
+
+
 
 
 .icon{
-    color: white;
-    background-color: #5666; ;
+
     position: relative;
-    left: 0;
-    top: 50%;
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+top:50%;
+    width: 100px;
+
     z-index: 1;
+    text-decoration: none;
+    border: 1px solid #fff;
+    outline: 0;
+    transition: .25s;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.42857;
+    letter-spacing: 2px;
+}
+.icon:hover{
+    background-color: #111111;
+    border: 1px solid #ffb400;
+    color: #ffb400;
 }
 .description{
 margin: 15px;

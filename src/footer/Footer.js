@@ -30,9 +30,9 @@ export function Footer(props) {
 
 
                     <Icons icon={<FontAwesomeIcon size={"2x"} icon={faLinkedinIn}/>}/>
-                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faGithub}/>}/>
-                    <Icons icon={<FontAwesomeIcon size={"2x"} icon={faTelegramPlane}/>}/>
-                    <span className={style.codeWars}><Icons icon={<Icon icon={codewarsIcon} color="#111" height={32}  />}/></span>
+                    <Icons link={'https://github.com/Sergo58'} icon={<FontAwesomeIcon size={"2x"} icon={faGithub}/>}/>
+                    <Icons link={'https://t.me/SergeyIlinykh'} icon={<FontAwesomeIcon size={"2x"} icon={faTelegramPlane}/>}/>
+                    <span  className={style.codeWars}><Icons link={'https://www.codewars.com/users/Sergo58'} icon={<Icon  icon={codewarsIcon} color="#111" height={32}  />}/></span>
 <span className={style.square}></span>
                 </div>
                 <span className={style.bottom}>© 2021 All Rights Reserved.</span>
