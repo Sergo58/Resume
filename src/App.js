@@ -8,6 +8,7 @@ import {MyWorks} from "./myWorks/MyWorks";
 import {Freelance} from "./freelance/Freelance";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {Preloader} from "./common/preloader/Preloader";
 
 function App() {
   return (
