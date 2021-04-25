@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from "./Contacts.module.css"
 import {Title} from "../common/Title/Title";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -11,11 +11,17 @@ import Tilt from "react-tilt";
 import {useDispatch, useSelector} from 'react-redux'
 import {messageTC} from "../reducer/message-reducer";
 import {Preloader} from "../common/preloader/Preloader";
+import Modal from "../common/modal/Modal";
 
 
 export function Contacts() {
+    const [show, setShow] = useState(true);
+
+
+    const closeModal = () => setShow(false);
     const dispatch = useDispatch()
     const status = useSelector(state => state.message.status)
+    const error = useSelector(state => state.message.error)
     const formik = useFormik({
         initialValues: {
             name: '',
@@ -38,7 +44,7 @@ export function Contacts() {
             if (!values.message) {
                 errors.message = 'Required';
             } else if (values.message.length < 5) {
-                errors.message = 'Why so short message?';
+                errors.message = 'Too short message';
             }
 
             return errors;
@@ -54,6 +60,7 @@ export function Contacts() {
 
 
     return (
+
  status==="loading"?<Preloader/>:
 
 
@@ -62,9 +69,11 @@ export function Contacts() {
 
             <div className={style.contact}>
                 <Title first={"get in "} second={"touch"}/>
+
                 <Fade left>
                     <div className={style.container}>
-
+                        {status==='success'&&<Modal h2={"Your email was sent successfully"} p={'I will try to reply to the message as soon as possible'} closeModal={closeModal} show={show} />}
+                        {error==='error'&&<Modal h2={"Oops an error occurred"} p={'Try again later'} closeModal={closeModal} show={show} />}
 
                         <div className={style.input}>
                             <form onSubmit={formik.handleSubmit}>

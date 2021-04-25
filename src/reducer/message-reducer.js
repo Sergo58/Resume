@@ -21,20 +21,18 @@ export const messageTC = (values) => (dispatch) => {
     dispatch(setStatusAC('loading'))
     messageAPI.send(values)
         .then(res => {
-            if (res.data.resultCode === 0) {
+
 
                 dispatch(setStatusAC('success'))
-            } else {
 
-            }
         })
         .catch((error) => {
+            dispatch(setStatusAC(null))
+            dispatch(setErrorAC('error'))
+            console.log(error)
+        })
 
-        })
-        .finally(()=>{
-            dispatch(setStatusAC('success'))
-        })
 }
 
-export const setErrorAC = (error) => ({type: 'APP/SET-ERROR', error})
+export const setErrorAC = (error) => ({type: 'SET-ERROR', error})
 export const setStatusAC = (status) => ({type: 'SET-STATUS', status})
