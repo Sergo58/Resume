@@ -21,10 +21,10 @@ export function MyWorks() {
   <Title first={"MY"} second={"Projects"}/>
   <Fade left>
     <div className={style.works}>
-<Work style={social} title={"Social network"} description={"Development of social network using React, Redux. " +
+<Work linkDemo={'https://Sergo58.github.io/SocialNetwork'} linkGit={'https://github.com/Sergo58/SocialNetwork'} style={social} title={"Social network"} description={"Development of social network using React, Redux. " +
 "Application authorization, profile editing, navigation through user pages, subscribing and unsubscribing " +
 "from users, adding posts."} />
-<Work style={toDo} title={"Todo list"}
+<Work linkDemo={'https://Sergo58.github.io/ToDoList'} linkGit={'https://github.com/Sergo58/ToDoList'} style={toDo} title={"Todo list"}
       description={"Development of Todo list using React, Redux." +
       "Application authorization. Adding, editing and deletion todo lists adn tasks "
 
