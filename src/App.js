@@ -18,7 +18,7 @@ function App() {
 <Main/>
 <Skills/>
 <MyWorks/>
-<Freelance/>
+
 <Contacts/>
 <Footer/>
 
