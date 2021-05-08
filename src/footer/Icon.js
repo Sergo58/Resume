@@ -1,6 +1,5 @@
 import React from 'react';
 import style from "./Footer.module.css"
-import stylesContainer from "./../common/styles/Container.module.css"
 import Tilt from "react-tilt";
 
 

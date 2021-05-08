@@ -5,7 +5,7 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {MyWorks} from "./myWorks/MyWorks";
-import {Freelance} from "./freelance/Freelance";
+import {CV} from "./Cv/CV";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 import {Preloader} from "./common/preloader/Preloader";
@@ -18,7 +18,7 @@ function App() {
 <Main/>
 <Skills/>
 <MyWorks/>
-
+<CV/>
 <Contacts/>
 <Footer/>
 
